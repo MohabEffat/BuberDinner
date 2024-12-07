@@ -10,6 +10,8 @@
     <ProjectReference Include="..\BubberDinner.Application\BubberDinner.Application.csproj" />
     <ProjectReference Include="..\BubberDinner.Contracts\BubberDinner.Contracts.csproj" />
     <ProjectReference Include="..\BubberDinner.Infrastructure\BubberDinner.Infrastructure.csproj" />
+	<PackageReference Include="Swashbuckle.AspNetCore" Version="7.1.0" />
+
   </ItemGroup>
 
 </Project>
