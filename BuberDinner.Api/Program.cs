@@ -1,5 +1,5 @@
 using BubberDinner.Application.Services;
-
+using BubberDinner.Infrastructure;
 namespace SohatNotebook.Api
 {
     public class Program
@@ -12,7 +12,10 @@ namespace SohatNotebook.Api
             // Add services to the container.
             {
                 builder.Services.AddControllers();
-                builder.Services.AddApplication();
+
+                builder.Services
+                    .AddApplication()
+                    .AddInfrastructure();
             }
 
             var app = builder.Build();

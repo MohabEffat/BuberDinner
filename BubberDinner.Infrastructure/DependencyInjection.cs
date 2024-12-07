@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace BubberDinner.Infrastructure.Services
+namespace BubberDinner.Infrastructure
 {
     public static class DependencyInjection
     {
